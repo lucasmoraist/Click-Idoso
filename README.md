@@ -14,29 +14,6 @@ The app was designed to meet the needs of elderly people who wish to familiarize
 - Visitors to senior centers: Participants in computer workshops and courses for the elderly.
 - Visitors to Telecenters: Users of Telecenters who seek to enhance their digital skills and expand their opportunities for social and professional inclusion.
 
-## Installation Instruction
-### Prerequisites
-- IDE of your choice (VsCode, Intellij, Eclipse...)
-- Java 17 or higher
-- Maven 3.2.5 or higher
-### Steps
-1. Configure your database in `application.properties`
-2. Open your computer bash and run these commands
-```bash
-mvn clean
-```
-```bash
-mvn package
-```
-```bash
-java -jar target/click-idoso-0.0.1-SNAPSHOT.jar
-```
-## How to
-- With program running you can test requests
-- You can use tools like Postman or Insomnia
-1. Open your tool to test
-2. Import file json from `./src/main/resources/utils`
-
 ## Contribution
 Contributions are welcome! Feel free to submit pull requests with improvements, bug fixes, or new features.
 
