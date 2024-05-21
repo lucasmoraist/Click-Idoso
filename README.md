@@ -14,6 +14,10 @@ The app was designed to meet the needs of elderly people who wish to familiarize
 - Visitors to senior centers: Participants in computer workshops and courses for the elderly.
 - Visitors to Telecenters: Users of Telecenters who seek to enhance their digital skills and expand their opportunities for social and professional inclusion.
 
+## Pages
+### Home Page
+<img src="https://github.com/lucasmoraist/Click-Idoso/blob/main/assets/img/homepage.png" width="260px" />
+
 ## Contribution
 Contributions are welcome! Feel free to submit pull requests with improvements, bug fixes, or new features.
 
