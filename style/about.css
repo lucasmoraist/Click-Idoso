@@ -4,9 +4,8 @@ main {
 
 #sobre {
     display: flex;
-    gap: 250px;
+    justify-content: space-between;
     margin-bottom: 143px;
-    width: 1324px;
 }
 
 #txt-sobre {
@@ -30,8 +29,7 @@ main {
 
 #cards-sobre {
     display: flex;
-    gap: 247px;
-    width: 1324px;
+    justify-content: space-between;
 }
 
 .card {
