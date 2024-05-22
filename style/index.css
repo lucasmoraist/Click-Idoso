@@ -80,5 +80,10 @@ main{
 
     font-size: 34px;
     font-weight: bold;
-    
+}
+
+.btn-primary:hover{
+    background-color: var(--secondary-light);
+    border: solid 4px var(--blue-color-dark);
+    color: var(--blue-color-dark);
 }
