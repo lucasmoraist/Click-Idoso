@@ -18,6 +18,9 @@ The app was designed to meet the needs of elderly people who wish to familiarize
 ### Home Page
 <img src="https://github.com/lucasmoraist/Click-Idoso/blob/main/assets/img/homepage.png" width="260px" />
 
+### About Page
+<img src="https://github.com/lucasmoraist/Click-Idoso/blob/main/assets/img/aboutpage.png" width="260px" />
+
 ## Contribution
 Contributions are welcome! Feel free to submit pull requests with improvements, bug fixes, or new features.
 
