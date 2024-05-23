@@ -41,29 +41,30 @@ menu li a:hover {
     color: var(--blue-color-medium);
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 146px 0 44px;
+    margin-top: 150px;
     height: 240px;
     background-color: var(--secondary-dark);
 }
 
-#left-side p{
+#left-side p {
     color: var(--primary-light);
     font-size: 16px;
     width: 230px;
 }
 
-#right-side{
+#right-side {
     display: flex;
     justify-content: space-between;
     gap: 97px;
     width: 783px;
 }
 
-.items{
+.items {
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -72,26 +73,107 @@ footer{
     gap: 10px;
 }
 
-.topicos{
+.topicos {
     display: flex;
     flex-direction: column;
     gap: 15px;
     text-align: center;
 }
 
-.items h3{
+.items h3 {
     font-size: 24px;
     color: var(--primary-light);
     font-weight: 600;
 }
 
-.items a{
+.items a {
     font-size: 20px;
     font-weight: 200;
     color: var(--primary-light);
     text-decoration: none;
 }
-main{
+
+main {
     padding: 0 58px;
-    margin-bottom: 210px;
+    margin: 140px 0 210px 0;
+}
+
+#main-content {
+    display: flex;
+    gap: 74px;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+    background-color: var(--secondary-light);
+    border-radius: 10px;
+    padding: 32px 62px;
+    height: 406px;
+}
+
+.menu-content h3 {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--green-color-medium);
+}
+
+.menu-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-content ul li a {
+    font-size: 22px;
+    font-weight: 300;
+    color: var(--secondary-dark);
+    text-decoration: none;
+}
+
+.menu-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 766px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.capitulo {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 766px;
+}
+
+.capitulo h2{
+    font-size: 64px;
+    font-weight: bold;
+    color: var(--green-color-medium);
+}
+
+.capitulo h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--green-color-medium);
+}
+
+.capitulo p, .capitulo li{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--primary-dark);
+    text-align: justify;
+}
+.capitulo div{
+    display: flex; 
+    flex-direction: column; 
+    gap: 30px;
+}
+.capitulo li{
+    
 }

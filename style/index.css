@@ -6,26 +6,26 @@
     align-items: end;
 }
 
-#banner-slogan h2{
+#banner-slogan h2 {
     color: var(--secondary-dark);
     font-size: 64px;
     font-weight: 300;
 }
 
-#slogan{
+#slogan {
     display: flex;
     height: 50%;
     width: 516px;
     align-items: top;
 }
 
-main{
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container{
+.container {
     display: flex;
     height: 596px;
     gap: 68px;
@@ -34,12 +34,12 @@ main{
     width: 1324px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
+
     width: 396px;
     height: 483px;
     background-color: var(--secondary-light);
@@ -47,29 +47,32 @@ main{
     box-shadow: 0 6px 5px 0 rgba(0, 0, 0, .25);
 }
 
-.card div{
+.card div {
     display: flex;
     flex-direction: column;
     gap: 28px;
     align-items: center;
 }
 
-.card div h4{
+.card div h4 {
     font-size: 36px;
     font-weight: 500;
     color: var(--primary-dark);
 }
 
-.card img{
+.card img {
     margin-top: 62px;
 }
-.card button{
+
+.card button {
     margin-bottom: 41px;
 }
-.card-mouse{
+
+.card-mouse {
     margin-bottom: 113px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--blue-color-dark);
     color: var(--primary-light);
     border: none;
@@ -82,7 +85,7 @@ main{
     font-weight: bold;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: var(--secondary-light);
     border: solid 4px var(--blue-color-dark);
     color: var(--blue-color-dark);
