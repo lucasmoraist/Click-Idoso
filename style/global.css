@@ -111,7 +111,7 @@ main {
     background-color: var(--secondary-light);
     border-radius: 10px;
     padding: 32px 62px;
-    height: 406px;
+    height: 100%;
 }
 
 .menu-content h3 {
@@ -144,6 +144,10 @@ main {
     gap: 60px;
 }
 
+.content audio {
+    width: 100%;
+}
+
 .capitulo {
     display: flex;
     flex-direction: column;
@@ -151,29 +155,28 @@ main {
     width: 766px;
 }
 
-.capitulo h2{
+.capitulo h2 {
     font-size: 64px;
     font-weight: bold;
     color: var(--green-color-medium);
 }
 
-.capitulo h3{
+.capitulo h3 {
     font-size: 48px;
     font-weight: bold;
     color: var(--green-color-medium);
 }
 
-.capitulo p, .capitulo li{
+.capitulo p,
+.capitulo li {
     font-size: 36px;
     font-weight: 500;
     color: var(--primary-dark);
     text-align: justify;
 }
-.capitulo div{
-    display: flex; 
-    flex-direction: column; 
+
+.capitulo div {
+    display: flex;
+    flex-direction: column;
     gap: 30px;
-}
-.capitulo li{
-    
 }
