@@ -26,11 +26,18 @@
                 </a>
             </div>
 
-            <menu>
-                <li><a href="teclado.html">TECLADO</a></li>
-                <li><a href="mouse.html">MOUSE</a></li>
-                <li><a href="internet.html">INTERNET</a></li>
-                <li><a href="about-me.html">SOBRE</a></li>
+            <input id="menu-hamburguer" type="checkbox" onclick="clickMenu()"/>
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <menu id="itens">
+                <li><a href="./teclado.html">TECLADO</a></li>
+                <li><a href="./mouse.html">MOUSE</a></li>
+                <li><a href="./internet.html">INTERNET</a></li>
+                <li><a href="./about-me.html">SOBRE</a></li>
             </menu>
         </nav>
     </header>
@@ -219,3 +226,4 @@
 </body>
 
 </html>
+<script src="../js/index.js"></script>
