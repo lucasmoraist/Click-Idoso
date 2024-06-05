@@ -1,0 +1,309 @@
+#main-content {
+  margin: 80px 0;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+}
+
+.menu-content {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 37px;
+  background-color: var(--secondary-light);
+  border-radius: 10px;
+  padding: 32px 62px;
+  height: 100%;
+}
+
+.menu-content h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--green-color-medium);
+}
+
+.menu-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu-content ul li a {
+  font-size: 22px;
+  font-weight: 300;
+  color: var(--secondary-dark);
+  text-decoration: none;
+}
+
+.menu-content ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.audio-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.capitulo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.capitulo h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--green-color-medium);
+}
+
+.capitulo h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--green-color-medium);
+}
+
+.capitulo p,
+.capitulo li {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary-dark);
+  text-align: justify;
+}
+
+.capitulo div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.icones {
+  width: 20px;
+}
+
+/* Mobile */
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .content {
+    width: 100%;
+  }
+  .content audio {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .content {
+    width: 100%;
+  }
+  .content audio {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .content {
+    width: 100%;
+  }
+  .content audio {
+    width: 100%;
+  }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #main-content {
+    padding: 0 90px;
+  }
+  .content {
+    width: 100%;
+  }
+  .content audio {
+    width: 100%;
+  }
+  .capitulo h2 {
+    font-size: 42px;
+  }
+  .capitulo h3 {
+    font-size: 34px;
+  }
+
+  .capitulo p,
+  .capitulo li {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  #main-content {
+    padding: 0 90px;
+  }
+  .content {
+    width: 100%;
+  }
+  .content audio {
+    width: 100%;
+  }
+  .capitulo h2 {
+    font-size: 42px;
+  }
+  .capitulo h3 {
+    font-size: 34px;
+  }
+
+  .capitulo p,
+  .capitulo li {
+    font-size: 22px;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  #main-content {
+    padding: 0 90px;
+    flex-direction: row;
+  }
+  .menu-content {
+    display: flex;
+  }
+  .content {
+    width: 700px;
+  }
+  .content audio {
+    width: 100%;
+  }
+  .capitulo h2 {
+    font-size: 64px;
+  }
+  .capitulo h3 {
+    font-size: 48px;
+  }
+
+  .capitulo p,
+  .capitulo li {
+    font-size: 36px;
+  }
+  .icones {
+    width: 35px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  #main-content {
+    padding: 0 90px;
+    flex-direction: row;
+  }
+  .menu-content {
+    display: flex;
+  }
+  .content {
+    width: 700px;
+  }
+  .content audio {
+    width: 100%;
+  }
+  .capitulo h2 {
+    font-size: 64px;
+  }
+  .capitulo h3 {
+    font-size: 48px;
+  }
+
+  .capitulo p,
+  .capitulo li {
+    font-size: 36px;
+  }
+  .icones {
+    width: 35px;
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 1921px) {
+  #main-content {
+    padding: 0 90px;
+    flex-direction: row;
+    gap: 90px;
+  }
+  .menu-content {
+    display: flex;
+  }
+  .menu-content h3 {
+    font-size: 48px;
+  }
+
+  .menu-content ul li a {
+    font-size: 32px;
+  }
+
+  .content {
+    width: 1080px;
+  }
+  .audio-wrapper {
+    justify-content: flex-start;
+  }
+  .content audio {
+    width: 800px;
+  }
+  .capitulo h2 {
+    font-size: 84px;
+  }
+  .capitulo h3 {
+    font-size: 64px;
+  }
+
+  .capitulo p,
+  .capitulo li {
+    font-size: 48px;
+  }
+  .icones {
+    width: 35px;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  #main-content {
+    padding: 0 90px;
+    flex-direction: row;
+    gap: 100px;
+  }
+  .menu-content {
+    display: flex;
+  }
+  .menu-content h3 {
+    font-size: 52px;
+  }
+
+  .menu-content ul li a {
+    font-size: 38px;
+  }
+
+  .content {
+    width: 1980px;
+  }
+  .content audio {
+    width: 800px;
+  }
+  .capitulo h2 {
+    font-size: 92px;
+  }
+  .capitulo h3 {
+    font-size: 84px;
+  }
+
+  .capitulo p,
+  .capitulo li {
+    font-size: 64px;
+  }
+  .icones {
+    width: 65px;
+  }
+}

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click Idoso - Sobre A Gente</title>
     <link rel="stylesheet" href="../style/variables.css">
-    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/styles.css">
     <link rel="stylesheet" href="../style/about.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,16 +25,23 @@
                 </a>
             </div>
 
-            <menu>
-                <li><a href="teclado.html">TECLADO</a></li>
-                <li><a href="#">MOUSE</a></li>
-                <li><a href="#">INTERNET</a></li>
-                <li><a href="about-me.html">SOBRE</a></li>
+            <input id="menu-hamburguer" type="checkbox" onclick="clickMenu()"/>
+            <label for="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <menu id="itens">
+                <li><a href="./teclado.html">TECLADO</a></li>
+                <li><a href="./mouse.html">MOUSE</a></li>
+                <li><a href="./internet.html">INTERNET</a></li>
+                <li><a href="./about-me.html">SOBRE</a></li>
             </menu>
         </nav>
     </header>
 
-    <main>
+    <main id="main-about">
         <div id="sobre">
             <div id="txt-sobre">
                 <p>
@@ -121,3 +128,4 @@
 </body>
 
 </html>
+<script src="../js/index.js"></script>
