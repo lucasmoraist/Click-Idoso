@@ -289,6 +289,9 @@
   .content {
     width: 1980px;
   }
+  .audio-wrapper {
+    justify-content: flex-start;
+  }
   .content audio {
     width: 800px;
   }
