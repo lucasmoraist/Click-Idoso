@@ -43,7 +43,6 @@ footer {
 
 #left-side p {
   color: var(--primary-light);
-  font-size: 16px;
 }
 
 #right-side {
@@ -75,11 +74,6 @@ footer {
   font-weight: 200;
   color: var(--primary-light);
   text-decoration: none;
-}
-
-main {
-  padding: 0 58px;
-  margin: 140px 0 210px 0;
 }
 
 .menu-hamburger {
@@ -185,6 +179,9 @@ input:checked ~ .menu-hamburguer-elements {
     gap: 30px;
     height: 100%;
   }
+  #left-side p {
+    font-size: 16px;
+  }
   #right-side {
     flex-direction: column;
     justify-content: center;
@@ -234,6 +231,9 @@ input:checked ~ .menu-hamburguer-elements {
     align-items: center;
     gap: 57px;
   }
+  #left-side p {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 425px) and (max-width: 767px) {
@@ -271,6 +271,9 @@ input:checked ~ .menu-hamburguer-elements {
     gap: 30px;
     height: 100%;
   }
+  #left-side p {
+    font-size: 16px;
+  }
   #right-side {
     flex-direction: column;
     justify-content: center;
@@ -297,6 +300,9 @@ input:checked ~ .menu-hamburguer-elements {
     gap: 30px;
     height: 100%;
   }
+  #left-side p {
+    font-size: 16px;
+  }
   #right-side {
     flex-direction: column;
     justify-content: center;
@@ -321,6 +327,9 @@ input:checked ~ .menu-hamburguer-elements {
     gap: 30px;
     height: 100%;
   }
+  #left-side p {
+    font-size: 16px;
+  }
   #right-side {
     justify-content: space-between;
     width: 100%;
@@ -332,6 +341,10 @@ input:checked ~ .menu-hamburguer-elements {
 /* Desktop */
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
+  main {
+    padding: 0 25px;
+    margin: 140px 0 210px 0;
+  }
   nav {
     padding: 0 45px;
   }
@@ -354,11 +367,16 @@ input:checked ~ .menu-hamburguer-elements {
     gap: 97px;
   }
   #left-side p {
+    font-size: 16px;
     width: 217px;
   }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 1919px) {
+  main {
+    padding: 0 25px;
+    margin: 140px 0 210px 0;
+  }
   nav {
     padding: 0 45px;
   }
@@ -381,11 +399,16 @@ input:checked ~ .menu-hamburguer-elements {
     gap: 97px;
   }
   #left-side p {
+    font-size: 20px;
     width: 217px;
   }
 }
 
 @media screen and (min-width: 1920px) and (max-width: 1921px) {
+  main {
+    padding: 0 25px;
+    margin: 140px 0 210px 0;
+  }
   nav {
     padding: 0 45px;
   }
@@ -408,11 +431,16 @@ input:checked ~ .menu-hamburguer-elements {
     gap: 97px;
   }
   #left-side p {
+    font-size: 22px;
     width: 217px;
   }
 }
 
 @media screen and (min-width: 1921px) {
+  main {
+    padding: 0 25px;
+    margin: 140px 0 210px 0;
+  }
   nav {
     padding: 0 45px;
   }
@@ -435,6 +463,15 @@ input:checked ~ .menu-hamburguer-elements {
     gap: 97px;
   }
   #left-side p {
-    width: 217px;
+    font-size: 26px;
+    width: 300px;
+  }
+
+  .items h3 {
+    font-size: 32px;
+  }
+
+  .items a {
+    font-size: 24px;
   }
 }
