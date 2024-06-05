@@ -61,7 +61,7 @@
                     <h4>Teclado</h4>
                 </div>
 
-                <button class="btn-primary">Acessar aula</button>
+                <button class="btn-primary" onclick="navigationToClass('./pages/teclado.html')">Acessar aula</button>
             </div>
 
             <div class="card card-mouse">
@@ -70,7 +70,7 @@
                     <h4>Mouse</h4>
                 </div>
 
-                <button class="btn-primary">Acessar aula</button>
+                <button class="btn-primary" onclick="navigationToClass('./pages/mouse.html')">Acessar aula</button>
             </div>
 
             <div class="card">
@@ -80,7 +80,7 @@
                     <h4>Internet</h4>
                 </div>
 
-                <button class="btn-primary">Acessar aula</button>
+                <button class="btn-primary" onclick="navigationToClass('./pages/internet.html')">Acessar aula</button>
             </div>
         </div>
     </main>
@@ -95,9 +95,9 @@
                 <h3>Exercícios</h3>
 
                 <div class="topicos">
-                    <a href="">Teclado</a>
-                    <a href="">Mouse</a>
-                    <a href="">Internet</a>
+                    <a href="pages/teclado.html">Teclado</a>
+                    <a href="pages/mouse.html">Mouse</a>
+                    <a href="pages/internet.html">Internet</a>
                 </div>
             </div>
 
@@ -127,3 +127,8 @@
 </html>
 
 <script src="js/index.js"></script>
+<script>
+    function navigationToClass(ancora){
+        window.location.href = ancora
+    }
+</script>
