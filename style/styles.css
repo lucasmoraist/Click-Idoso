@@ -326,7 +326,7 @@ input:checked ~ .menu-hamburguer-elements {
     display: flex;
   }
   footer {
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
     height: 100%;
   }
@@ -335,7 +335,7 @@ input:checked ~ .menu-hamburguer-elements {
   }
   #right-side {
     justify-content: space-between;
-    width: 100%;
+    width: 383px;
     align-items: center;
     gap: 57px;
   }
@@ -365,7 +365,7 @@ input:checked ~ .menu-hamburguer-elements {
   }
   #right-side {
     justify-content: space-between;
-    width: 783px;
+    width: 383px;
     align-items: center;
     gap: 97px;
   }
@@ -397,7 +397,7 @@ input:checked ~ .menu-hamburguer-elements {
   }
   #right-side {
     justify-content: space-between;
-    width: 783px;
+    width: 383px;
     align-items: center;
     gap: 97px;
   }
@@ -429,7 +429,7 @@ input:checked ~ .menu-hamburguer-elements {
   }
   #right-side {
     justify-content: space-between;
-    width: 783px;
+    width: 483px;
     align-items: center;
     gap: 97px;
   }
@@ -461,7 +461,7 @@ input:checked ~ .menu-hamburguer-elements {
   }
   #right-side {
     justify-content: space-between;
-    width: 783px;
+    width: 483px;
     align-items: center;
     gap: 97px;
   }
