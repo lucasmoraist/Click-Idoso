@@ -3,28 +3,28 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Description
-The main goal of this app is to democratize access to computer knowledge for elderly people, promoting digital inclusion and autonomy among this audience. Through a user-friendly interface and interactive content, the app aims to help seniors learn about the main functionalities of computers, from basic keyboard and mouse usage to internet navigation, online communication, and the use of essential digital services.
+# Descrição
+O principal objetivo deste aplicativo é democratizar o acesso ao conhecimento sobre computadores para pessoas idosas, promovendo a inclusão digital e a autonomia desse público. Por meio de uma interface amigável e conteúdo interativo, o aplicativo visa ajudar os idosos a aprender sobre as principais funcionalidades dos computadores, desde o uso básico de teclado e mouse até a navegação na internet, comunicação online e o uso de serviços digitais essenciais.
 
-### Customer base
-The app was designed to meet the needs of elderly people who wish to familiarize themselves with the digital world and enjoy the benefits of technology in their daily lives. The primary target audience includes:
+# Público-alvo
+O aplicativo foi projetado para atender às necessidades de pessoas idosas que desejam se familiarizar com o mundo digital e aproveitar os benefícios da tecnologia em suas vidas diárias. O público-alvo principal inclui:
 
-- Individuals in the aging process: People who are beginning their journey in the digital world and seeking to acquire basic computer skills.
-- Retirees: Individuals who want to stay connected with family and friends, shop online, access banking services, and enjoy digital content.
-- Visitors to senior centers: Participants in computer workshops and courses for the elderly.
-- Visitors to Telecenters: Users of Telecenters who seek to enhance their digital skills and expand their opportunities for social and professional inclusion.
+- Indivíduos em processo de envelhecimento: Pessoas que estão começando sua jornada no mundo digital e buscam adquirir habilidades básicas em informática.
+- Aposentados: Pessoas que desejam se manter conectadas com familiares e amigos, fazer compras online, acessar serviços bancários e desfrutar de conteúdo digital.
+- Visitantes de centros de convivência para idosos: Participantes de oficinas e cursos de informática para a terceira idade.
+- Visitantes de Telecentros: Usuários de Telecentros que buscam aprimorar suas habilidades digitais e expandir suas oportunidades de inclusão social e profissional.
 
-## Pages
-### Home Page
+## Telas
+### Tela Principal
 <img src="https://github.com/lucasmoraist/Click-Idoso/blob/main/assets/img/homepage.png" width="260px" />
 
-### About Page
+### Tela Sobre
 <img src="https://github.com/lucasmoraist/Click-Idoso/blob/main/assets/img/aboutpage.png" width="260px" />
 
 ## Contribution
 Contributions are welcome! Feel free to submit pull requests with improvements, bug fixes, or new features.
 
-## Contact
+## Contatos
 <a href = "mailto:luksmnt1101@gmail.com">
   <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
 </a>
